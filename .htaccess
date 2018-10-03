@@ -1,0 +1,6 @@
+<Files PavingDesignExpert.exe>
+AuthType Basic
+AuthUserFile virt_html/pavingdesignexpert.ks.ua/public_html/.htpasswd
+AuthName "Paving Design Expert"
+require valid-user
+</Files>

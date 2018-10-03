@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+   <title>Половинки</title>
+   <meta name="generator" content="Help & Manual">
+   <meta name="keywords" content="половинка,половинки,разрез,разрезы">
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+</head>
+
+
+  <!-- Redirect browser to index page if page is not in the content frame.
+       This script is only valid for regular HTML export -->
+  <script language="JavaScript">
+       <!-- 
+           if(top.frames.length==0) top.location.href='index.html?parts.html'
+       //-->
+  </script>
+
+
+<body bgcolor="#FFFFFF">
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="2" bgcolor="#C0C0C0">
+  <tr>
+    <td align="left">
+      
+<span style="font-family:Helvetica,Arial; font-size:12pt; color:#000000"><b>Половинки</b><span style="font-family:MS Sans Serif; font-size:10pt; color:#000000">
+<br>
+</span></span>
+    </td>
+    <td align="right">
+     <font face="Arial" size="2">
+     <a href="javaScript:parent.reDisplay('2.2',1,0)">Назад</a>&nbsp;
+     <a href="javaScript:parent.reDisplay('2.1',1,0)">В начало</a>&nbsp;
+     <a href="javaScript:parent.reDisplay('2.3',1,0)">Вперед</a>
+     </font>
+    </td>
+  </tr>
+</table>
+<br><br>
+
+
+
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Если в комплекте форм для плитки есть половинки то разделение плитки на половинки задается в редакторе плиток, поверх нарисованной плитки. 
+<br>
+Окно для создания и редактирования половинок вызывается с панели инструментов окна редактора плиток. Кнопка доступна только после того, как плитка сохранена.
+<br>
+<img src="callparts.png" width="736" height="105" border="0">
+<br>
+
+<br>
+Окно имеет вид:
+<br>
+<img src="window.png" width="307" height="159" border="0">
+<br>
+В левой части расположен список наборов половинок, справа - список самих половинок в наборе. Для пояснения о наборах половинок и половинках приведем пример. "Вертикальный разрез" - это набор половинок, а "Левая" и "Правая" - это уже непосредственно половинки.
+<br>
+Вначале добавляется набор половинок. Это делается кнопкой <b>Добавить</b>  в левой части окна.
+<br>
+Пусть набор называется "Вертикальный разрез".
+<br>
+<img src="windowwithvr.png" width="307" height="159" border="0">
+<br>
+
+<br>
+<a name="drawpartline">Теперь рисуется линия (или несколько линий), разделяющая половинку на части вертикально. Эта линия <a href=javaScript:parent.reDisplay('3.3',1,0)>рисуется</a> теми же инструментами, что и контур плитки. И, как и контур плитки, она должна быть нарисована сплошной линией. Линия разделения отображается синим цветом:
+<br>
+<img src="drawline.png" width="736" height="380" border="0">
+<br>
+Линия <a href=javaScript:parent.reDisplay('3.4',1,0)>редактируется</a> так же, как и остальные <a href=glossary.html#GraphicPrimitive>графические элементы</a>.
+<br>
+
+<br>
+<a name="highlightpart">После этого выделяются половинки. Для этого на панели инструментов есть инструмент <img src="partmark.png" width="16" height="16" border="0">. Он задает на экране пунктирные прямоугольники по двум противоположным углам. 
+<br>
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td width="14"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><font face="Symbol" size="2" color="#000000">&#183;</font></span></td><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">щелчок левой кнопкой мыши - отмечается первый угол
+&nbsp;<br>
+</span></td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td width="14"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><font face="Symbol" size="2" color="#000000">&#183;</font></span></td><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">не отпуская левую кнопку, перетащить мышь в противоположный угол будущего прямоугольника. При этом нужно проследить, чтобы половинка, которая отмечается, полностью попала в прямоугольник, и никакая другая половинка не попала в прямоугольник полностью
+&nbsp;<br>
+</span></td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td width="14"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><font face="Symbol" size="2" color="#000000">&#183;</font></span></td><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">отпустить левую кнопку мыши.
+&nbsp;<br>
+</span></td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"></span></td><td></td></tr></table><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><b>
+<br>
+</b>Если все было проделано правильно, половинка добавится в набор и в правой части окна половинок появится название "Безымянная".
+<br>
+<img src="markfirst.png" width="596" height="327" border="0">
+<br>
+Если установить указатель на название половинки, то она выделится на чертеже зеленоватым фоном:
+<br>
+<img src="markfirstpaint.png" width="596" height="327" border="0">
+<br>
+
+<br>
+<table border="1" cellpadding="8"><tr><td align="left" valign="top" width="805">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><b>Предупреждение.</b>  При выделении половинки вместо аккуратного контура может получаться какой-то ломаный многоугольник:
+<br>
+<img src="badpart.png" width="428" height="236" border="0">
+<br>
+Причины:
+<br>
+1. При рисовании контура плитки получились отрезки нулевой длины. Такое бывает, если два раза щелкнуть мышкой на одном и том же месте - начало и конец совпадут. Удалите их через <b><a href=javaScript:parent.reDisplay('3.4',1,0)>Список графических элементов</a></b> .
+<br>
+2. При выделении половинки в выделение попали элементы, которые не должны образовывать контур половинки. Удалите половинку и попробуйте выделить ее еще раз.
+<br>
+</span></td></tr></table>
+<br>
+
+<br>
+Аналогично добавляется вторая половинка набора:
+<br>
+<img src="marksecondpaint.png" width="596" height="327" border="0">
+<br>
+
+<br>
+Аналогично добавляются другие наборы половинок, например, "Горизонтальный разрез":
+<br>
+<img src="markanotherpaint.png" width="570" height="317" border="0">
+<br>
+
+<br>
+Нужно подробнее остановиться на названиях половинок. В приведенном примере можно оставить их без изменения - обе "Безымянная". Почему? Потому что они обе предсталяют собой абсолютно одинаковые геометрические фигуры, т.е. при укладке взаимозаменяемы. В этом случае ставим флажок "Взаимозаменяемые". При этом в <a href=javaScript:parent.reDisplay('2.4.5',1,0)>отчете</a> не будут фигурировать отдельно левая и правая половинки с одинаковым именем "Безымянная", а просто половинка "Вертикальный разрез".
+<br>
+
+<br>
+<table border="1" cellpadding="8"><tr><td align="left" valign="top" width="570">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Для пояснения приведем пример. Если бы нужно было вертикально разделить вот такую половинку:
+<br>
+<img src="nonsymmetricsample.png" width="64" height="64" border="0">
+<br>
+то ни о какой взаимозаменяемости речи быть не может, флажок "Взаимозаменяемые" ставить нельзя, и нужно переименовать половинки в "Левая" и "Правая", чтобы можно было их отличить в отчете
+<br>
+</span></td></tr></table>
+<br>
+
+<br>
+Остальные кнопки в окне половинок:
+<br>
+<i>Слева:</i> 
+<br>
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td width="14"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><font face="Symbol" size="2" color="#000000">&#183;</font></span></span></td><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Редактировать - изменить имя набора половинок
+&nbsp;<br>
+</span></td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td width="14"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><font face="Symbol" size="2" color="#000000">&#183;</font></span></td><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Удалить - удалить набор половинок
+&nbsp;<br>
+</span></td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"></span></td><td></td></tr></table><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><i>Справа:</i> 
+<br>
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td width="14"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><font face="Symbol" size="2" color="#000000">&#183;</font></span></span></td><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Редактировать - изменить имя половинки
+&nbsp;<br>
+</span></td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td width="14"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><font face="Symbol" size="2" color="#000000">&#183;</font></span></td><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Удалить - удалить половинку
+&nbsp;<br>
+</span></td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"></span></td><td></td></tr></table><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+</span></span>
+
+</body>
+</html>

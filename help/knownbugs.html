@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+   <title>Известные проблемы</title>
+   <meta name="generator" content="Help & Manual">
+   <meta name="keywords" content="">
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+</head>
+
+
+  <!-- Redirect browser to index page if page is not in the content frame.
+       This script is only valid for regular HTML export -->
+  <script language="JavaScript">
+       <!-- 
+           if(top.frames.length==0) top.location.href='index.html?knownbugs.html'
+       //-->
+  </script>
+
+
+<body bgcolor="#FFFFFF">
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="2" bgcolor="#C0C0C0">
+  <tr>
+    <td align="left">
+      
+<span style="font-family:Helvetica,Arial; font-size:12pt; color:#000000"><b>Известные проблемы</b><span style="font-family:MS Sans Serif; font-size:10pt; color:#000000">
+<br>
+</span></span>
+    </td>
+    <td align="right">
+     <font face="Arial" size="2">
+     <a href="javaScript:parent.reDisplay('1.6',1,0)">Назад</a>&nbsp;
+     <a href="javaScript:parent.reDisplay('2.1',1,0)">В начало</a>&nbsp;
+     <a href="javaScript:parent.reDisplay('2.1',1,0)">Вперед</a>
+     </font>
+    </td>
+  </tr>
+</table>
+<br><br>
+
+
+
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">1. Редактор проектов, редактор плиток и редактор узоров 
+<br>
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td width="14"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><font face="Symbol" size="2" color="#000000">&#183;</font></span></td><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">может наблюдаться эффект: инструмент на панели инструментов выбран, т.е. его кнопка нажата, но не работает. Нужно "отжать" и снова нажать кнопку инструмента.
+&nbsp;<br>
+</span></td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td width="14"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><font face="Symbol" size="2" color="#000000">&#183;</font></span></td><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">может появиться несколько неадекватная реакция программы на смену иструмента: например, информация в статус-окне принадлежит не выделенному элементу, а тому, который был выбран до него; сам выбранный элемент рисуется не тем типом линии и т.п. Эти проблемы связаны исключительно с  визуальным отображением и никак не угрожают целостности данных. Нужно "отжать" и снова нажать кнопку инструмента.
+&nbsp;<br>
+</span></td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"></span></td><td></td></tr></table><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+2. Редатор плиток, редактор проектов
+<br>
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td width="14"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><font face="Symbol" size="2" color="#000000">&#183;</font></span></span></td><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">площадь считается с некоторыми погрешностями, если среди элементов контура есть дуги.   
+&nbsp;<br>
+</span></td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"></span></td><td></td></tr></table><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+3. Редактор плиток, окно половинок
+<br>
+<table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td width="14"><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><font face="Symbol" size="2" color="#000000">&#183;</font></span></span></td><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">при выделении половинки вместо аккуратного контура получается какой-то ломаный многоугольник
+&nbsp;<br>
+</span></td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr valign="top"><td><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"></span></td><td></td></tr></table><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">
+<br>
+ 
+<br>
+<img src="badpart.png" width="428" height="236" border="0">
+<br>
+
+<br>
+Причины:
+<br>
+    1. При рисовании контура плитки получились отрезки нулевой длины. Такое бывает, если два раза щелкнуть мышкой на одном и том же месте - начало и конец совпадут. Удалите их через <b><a href=javaScript:parent.reDisplay('3.4',1,0)>Список графических элементов</a></b>.
+<br>
+    2. При выделении половинки в выделение попали элементы, которые не должны образовывать контур половинки. Удалите половинку и попробуйте выделить ее еще раз.
+<br>
+
+<br>
+4. На "слабых" компьютерах некоторые команды выполняются длительное время. Попытка повторить, отменить команду или отдать другую может вызвать сбой. Не торопите компьютер.
+<br>
+
+<br>
+Если у вас возникнут проблемы, не описанные в этом разделе, будем благодарны за сообщения о них в <a href=javaScript:parent.reDisplay('1.4',1,0)>службу технической поддержки</a>.
+<br>
+
+<br>
+</span></span>
+
+</body>
+</html>

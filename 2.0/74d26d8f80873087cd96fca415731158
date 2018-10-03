@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>OpenDNS &gt; Verify Network</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(
+	['_setAccount', 'UA-1163522-1'],
+	['_setDomainName', '.opendns.com'],
+	['_setAllowHash', false],
+	['_addIgnoredRef', 'opendns.com'],
+	['_trackPageview']);
+</script>
+	<link rel="stylesheet" href="https://d2pd6uxne55biq.cloudfront.net/css/main.css" type="text/css" />
+		
+<script src="https://d2v7u03x06aro3.cloudfront.net/jsloader/jquery:25144ff6.js" type="text/javascript"></script>
+	<style type="text/css">
+	<!--
+		body { background: #ddd; margin: 20px 0 0 0; font-size: 11px; line-height: 15px; }
+		#account { width: 600px; margin: 0 auto; }
+		#account .left { float: left; width: 400px; margin-right: 20px; margin-bottom: 5px; }
+		#account .right { float: left; width: 100px; margin-bottom: 5px; }
+		p { padding-bottom: 10px; }
+		table.account { margin:0; padding:0; }
+		table.account td { padding: 0 5px 5px 0; font-size: 11px;  line-height: 15px; }
+		h4 { border-top: 1px solid #ddd; padding-top: 20px; color: #4c555a; }
+		.bottomlinks { border-top: 1px solid #ddd; padding-top: 20px; }
+		.grey { color: #666; font-size: 10px; }
+	-->
+	</style>
+</head>
+<body>
+
+<div id="account">
+
+<div class="roundbox">
+<div class="top"><div class="top-inner"></div></div>
+<div class="inner">
+<div class="left">
+
+<h2>Network Verification</h2>
+
+
+
+	<p>
+		You're almost done! For your security, please enter your username
+and password to finish the verification process.
+	</p>
+	<form method="POST">
+	<p>
+	</p>
+
+	<table class="account" cellspacing="0" cellpadding="0">
+		<tr>
+			<td width="20%" align="right"><b>Username:</b></td>
+			<td width="80%"><input id="username" name="username" type="text" size="20" /></td>
+		</tr>
+		<tr>
+			<td align="right"><b>Password:</b></td>
+			<td><input name="password" type="password" size="20" /></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td style="padding:0 0 15px 0;">&nbsp;</td>
+			<td style="padding:0 0 15px 0;"><div style=""><div class="button"><input  class="submitbutton" type="submit" name="network-verify" id="network-verify" value="Verify network" /></div></div><div class="clr"></div></td>
+		</tr>
+	</table>
+
+	<br />
+	<br />
+	<input type="hidden" name="formtoken" value="01e8097f3662d15045e91c5040d5e37e" />
+	<input type="hidden" name="c" value="74d26d8f80873087cd96fca415731158" />
+	</form>
+
+
+</div>
+
+<div class="right">
+			<p><a title="Back to OpenDNS home" href="http://www.opendns.com"><img src="/img/logo_opendns.gif"
+		width="100" height="40" style="border:0;" alt="Go to opendns.com" /></a></p>
+	</div>
+
+<div class="clr"></div>
+
+
+</div>
+<div class="bottom"><div class="bottom-inner"><div class="bottom-inner-white"></div></div></div>
+</div><!-- / roundbox -->
+
+
+</div><!-- / account container-->
+
+
+<div class="terms"><p class="center slim">Copyright &copy; 2013 <a href="http://www.opendns.com/">OpenDNS</a></b> | <a href="http://www.opendns.com/terms/">Terms of Use</a> | <a href="http://www.opendns.com/privacy/">Privacy Policy</a> | <a href="http://www.opendns.com/support/">Support</a></p></div>
+
+<script type="text/javascript">
+(function() {
+	var ga = document.createElement('script');
+	ga.type = 'text/javascript';
+	ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ga, s);
+})();
+</script><script type="text/javascript">
+	$(document).ready(function() {
+		$('#username').focus();
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+   <title>Редактор узоров</title>
+   <meta name="generator" content="Help & Manual">
+   <meta name="keywords" content="нарисовать узор">
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+</head>
+
+
+  <!-- Redirect browser to index page if page is not in the content frame.
+       This script is only valid for regular HTML export -->
+  <script language="JavaScript">
+       <!-- 
+           if(top.frames.length==0) top.location.href='index.html?collageeditor.html'
+       //-->
+  </script>
+
+
+<body bgcolor="#FFFFFF">
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="2" bgcolor="#C0C0C0">
+  <tr>
+    <td align="left">
+      
+<span style="font-family:Helvetica,Arial; font-size:12pt; color:#000000"><b>Редактор узоров</b><span style="font-family:MS Sans Serif; font-size:10pt; color:#000000">
+<br>
+</span></span>
+    </td>
+    <td align="right">
+     <font face="Arial" size="2">
+     <a href="javaScript:parent.reDisplay('2.2.1',1,0)">Назад</a>&nbsp;
+     <a href="javaScript:parent.reDisplay('2.1',1,0)">В начало</a>&nbsp;
+     <a href="javaScript:parent.reDisplay('2.3.1',1,0)">Вперед</a>
+     </font>
+    </td>
+  </tr>
+</table>
+<br><br>
+
+
+
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Когда плитка готова, надо в редакторе <a href=glossary.html#glossarycollage>узоров</a> задать расположение плиток при кладке. Редактор <a href=glossary.html#glossarycollage>узоров</a> вызывается через главное меню главного окна -&gt; <b>Редактор узоров</b> .
+<br>
+<img src="callcollageeditor1.png" width="738" height="181" border="0">Можно воспользоваться кнопкой <img src="icom.png" width="24" height="23" border="0"> на панели инструментов главного окна или окна <a href=tileeditor.html#CallCollgeEditor>Редактор плиток</a>.
+<br>
+<img src="callcollageeditor.png" width="496" height="152" border="0">
+<br>
+Назначение узора - показать программе, как именно заполнять участок плиткой. Чтобы задать узор, надо нарисовать его фрагмент. При заполении участка плиткой программа будет помещать на чертеж этот фрагмент, а рядом - такие же фрагменты. Куда именно помещать соседние фрагменты, указывается при составлении узора. 
+<br>
+
+<br>
+<a name="collage">Надо создать новый узор или открыть существующий через меню <b>Узор</b> окна <b>Редактор узоров </b>или кнопки <img src="open.png" width="23" height="22" border="0"> и <img src="new.png" width="20" height="21" border="0"> на панели инструментов. После этого разблокируются пункты меню и кнопки на панели инструментов. 
+<br>
+<img src="ce-mainwindow.png" width="363" height="151" border="0">
+<br>
+Расставьте на чертеже плитки так, как они будут выглядеть в узоре. Для каждой плитки нужно выполнить следующее:
+<br>
+1. Отметить на чертеже точку, в которую будет помещена плитка.
+<br>
+2. Открыть <a href=javaScript:parent.reDisplay('2.3.1',1,0)>окно "Добавить плитку в узор"</a>.
+<br>
+3. В окне выбрать на плитке точку, которая попадет в точку, отмеченную на шаге 1.
+<br>
+4. В то же окне задать ориентацию плитки.
+<br>
+5. И в том же окне нажать кнопку <b>Добавить в узор</b> .
+<br>
+
+<br>
+Ниже подробно описаны эти шаги.
+<br>
+
+<br>
+<b><a name="explainpointondraw"></b> <b>Кнопка Обозначить место плитки</b> <img src="marktile.png" width="16" height="16" border="0"> - на чертеже выбирается точка, куда будет помещена плитка (в этой главе она называется <a name="pointoncollage"><i>точка на чертеже</i> ) 
+<br>
+<img src="collageeditorwithtilehandpoint.png" width="334" height="176" border="0">
+<br>
+Если эта точка обозначает самую первую плитку узора, то она будет также <a href=glossary.html#basepoint>базовой точкой</a> узора и обозначаться дополнительной меткой - фиолетовым крестиком.
+<br>
+
+<br>
+<b><a name="collageeditoraddtile"></b> <b>Кнопка Добавить плитку</b> <img src="tile.png" width="16" height="16" border="0"> - открывается <a href=javaScript:parent.reDisplay('2.3.1',1,0)>окно "Добавить плитку в узор"</a>. Здесь выбирается точка плитки, которая будет совмещена с выбранной точкой на чертеже (в этой главе она называется <a name="pointontile"><i>точка на плитке</i> ).
+<br>
+<img src="tileplacementwindow.png" width="629" height="305" border="0">
+<br>
+
+<br>
+И <a href=collageeditor.html#PointOnCollage>точка на узоре</a>, и <a href=collageeditor.html#PointOnTile>точка на плитке</a> задаются щелчком левой кнопки мыши. Эти точки отображаются синим крестиком. Координаты можно корректировать в окне с плиткой. Окно с плиткой можно закрывать и открывать - цифры запоминаются. Подробнее см. <a href=javaScript:parent.reDisplay('2.3.1',1,0)>Добавление плитки в узор</a>.
+<br>
+
+<br>
+После добавления плитки в узор метка на чертеже <img src="marktile.png" width="16" height="16" border="0"> снимается и ее нужно ставить снова, в другом месте. Это сделано специально, чтобы не вставить множество плиток в одно и то же место. 
+<br>
+
+<br>
+<a name="simpleadd">Есть более простой способ добавления плитки в узор - кнопка <img src="addtileex.png" width="16" height="16" border="0">. При этом окно "Добавить плитку..." не открывается. Плитка добавляется в узор в том положении и той <a href=collageeditor.html#PointOnTile>точкой на плитке</a>, как она в последний раз была указана в окне "Добавить плитку...". Если <a href=collageeditor.html#PointOnTile>точка на плитке</a> еще не была выбрана, ее роль играет <a href=glossary.html#basepoint>базовая точка</a> плитки.
+<br>
+
+<br>
+Кнопка <img src="tilelist.png" width="16" height="16" border="0"> открывает окно, в котором можно отредактировать расположение плиток в узоре или удалить их из узора.
+<br>
+<img src="edittiles.png" width="287" height="138" border="0">
+<br>
+Поведение этого списка описано в главе <a href=javaScript:parent.reDisplay('3.4',1,0)>Редактирование графических объектов</a>, за исключением того, что при нажатии <b>Редактировать</b>  открывается окно редактирования положения плитки в узоре:
+<br>
+<img src="edittiledlg.png" width="200" height="248" border="0">
+<br>
+
+<br>
+<a name="pointnextcollages">После того, как узор задан, нужно указать <a href=glossary.html#basepoint>базовые точки</a> соседних узоров, чтобы программа смогла заполнить площадь. Для этого надо в окне редактора узоров нажать кнопку <img src="marknextcollage.png" width="16" height="16" border="0"> и мышкой выбрать точки на чертеже. Кнопка <img src="nextcollagelist.png" width="16" height="16" border="0"> открывает окно, в котором можно отредактировать расположение соседних узоров (точнее базовых точек) или удалить их.
+<br>
+<img src="editpoint.png" width="436" height="325" border="0">
+<br>
+Примеры нескольких возможных узоров из прямоугольной плитки:
+<br>
+<img src="collageexample1.png" width="575" height="216" border="0">
+<br>
+На каждом рисунке показан элементарный фрагмент узора. Его базовая точка - в центре. Красными крестиками обозначены точки, куда при заполнении участка плиткой будут помещены соседние узоры (своими базовами точками). Не нужно заботиться о том, чтобы расставить точки во всех направлениях. Программа сама найдет точки в направлениях, противоположных заданным.
+<br>
+<a name="warning1"><table border="1" cellpadding="8"><tr><td align="left" valign="top" width="552">
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><i>Предупреждение.</i>  В этой версии программы не решен вопрос о том, как учитывать технологические зазоры при укладке. Есть два варианта решения этой проблемы:
+<br>
+<b>Первый</b> , наиболее простой, но не вполне корректный - рисовать плитку чуть больше реальных размеров. При этом узоры составляются просто и наглядно. Когда алгоритм программы изменится так, что будет учитывать технологические зазоры, прийдется перерисовать все плитки.
+<br>
+<b>Второй</b>  вариант - составлять узор с зазорами. При <a href=javaScript:parent.reDisplay('2.4',1,0)>разработке проектов</a> как правило используется довольно мелкий масштаб и зазоры будут незаметны. Единственное неудобство - при <a href=javaScript:parent.reDisplay('2.3.2',1,0)>проверке узоров</a> будет постоянно выдаваться предупреждение об обнаружении пустот.
+<br>
+</span></td></tr></table>
+<br>
+
+<br>
+В конце работы надо сохранить узор.
+<br>
+
+<br>
+Можно открыть существующий узор для редактирования (меню <b>Узоры</b>  -&gt; <b>Открыть</b>  или кнопка <img src="open.png" width="23" height="22" border="0"> на панели инструментов). Откроется список существующих узоров:
+<br>
+<img src="opencollage.png" width="316" height="204" border="0">
+<br>
+Если поставить флажок "Предпросмотр", то в этом же окне можно посмотреть на указанный узор:
+<br>
+<img src="opencollagepreview.png" width="474" height="185" border="0">
+<br>
+
+<br>
+Когда поставлен флажок "Фильтр узоров", сначала выбирается плитка. Становится доступен список узоров,  составленных с использованием этой плитки:
+<br>
+<img src="opencollageselect.png" width="498" height="254" border="0">
+<br>
+Открытый в редакторе плиток узор, можно удалить. Для удаления нужно воспользоваться меню <b>Узор</b> :
+<br>
+<img src="delete.png" width="456" height="297" border="0">
+<br>
+
+<br>
+Узор можно проверить на отсутствие пустот и наложений плиток. См. главу <a href=javaScript:parent.reDisplay('2.3.2',1,0)>Проверка узора</a>.
+<br>
+
+<br>
+</span>
+
+</body>
+</html>

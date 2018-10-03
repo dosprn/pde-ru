@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+   <title>Заполнение плиткой</title>
+   <meta name="generator" content="Help & Manual">
+   <meta name="keywords" content="кладка,проверить укладку,проверка укладки,укладка">
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+</head>
+
+
+  <!-- Redirect browser to index page if page is not in the content frame.
+       This script is only valid for regular HTML export -->
+  <script language="JavaScript">
+       <!-- 
+           if(top.frames.length==0) top.location.href='index.html?fillwithtiles.html'
+       //-->
+  </script>
+
+
+<body bgcolor="#FFFFFF">
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="2" bgcolor="#C0C0C0">
+  <tr>
+    <td align="left">
+      
+<span style="font-family:Helvetica,Arial; font-size:12pt; color:#000000"><b>Заполнение плиткой</b><span style="font-family:MS Sans Serif; font-size:10pt; color:#000000">
+<br>
+</span></span>
+    </td>
+    <td align="right">
+     <font face="Arial" size="2">
+     <a href="javaScript:parent.reDisplay('2.4.2',1,0)">Назад</a>&nbsp;
+     <a href="javaScript:parent.reDisplay('2.1',1,0)">В начало</a>&nbsp;
+     <a href="javaScript:parent.reDisplay('2.4.4',1,0)">Вперед</a>
+     </font>
+    </td>
+  </tr>
+</table>
+<br><br>
+
+
+
+<span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Нажмите кнопку <b>Заполнить</b> <img src="fill.png" width="16" height="16" border="0"> на панели инструментов,  или выберите в меню <b>Участок</b><b> </b><span style="font-family:Wingdings; font-size:10pt; color:#000000"><b>а</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><b> </b><b>Заполнить</b>.<span style="font-family:Helvetica,Arial; font-size:10pt; color:#FF0000">
+<br>
+</span></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000">Участок заполнится плиткой. Заполнение начинается с того, что в начальную точку помещается выбранный <a href=glossary.html#glossarycollage>узор</a>. Причем <a href=glossary.html#basepoint>базовая точка</a> этого узора совмещается с <a href=drawproject.html#StartPoint>начальной точкой</a>. Затем следующие узоры размещаются в <a href=collageeditor.html#PointNextCollages>заданные точки</a> вокруг предыдущих узоров. Это может продолжаться длительное время. После заполнения появится сообщение и участок будет выглядеть  так или, например так:
+<br>
+<img src="projectstep5.png" width="862" height="298" border="0">
+<br>
+
+<br>
+Что может быть не так?
+<br>
+1. Узор не был проверен и на участке образовались пустоты или плитки спрятались одна под другой. 
+<br>
+Надо исправить узор, снова выбрать его и снова нажать <img src="fill.png" width="16" height="16" border="0">.
+<br>
+2. Плитки не расположены точно вдоль стороны, к которой они должны примыкать.
+<br>
+Нужно скорректировать начальную точку и снова нажать <img src="fill.png" width="16" height="16" border="0">.
+<br>
+3. На участке видны странные незаполненные ничем клинья, проходящие из угла в угол.
+<br>
+Плохо состыкованы линии контура участка. Нужно <a href=javaScript:parent.reDisplay('3.4',1,0)>исправить</a> контур и снова нажать <img src="fill.png" width="16" height="16" border="0">.
+<br>
+4. Выдается сообщение и том, что заполнение закончено, но на участке не появилось ни одной плитки.
+<br>
+Начальная точка выбрана неудачно - на участок не попала ни базовая точка первого фрагмента узора, ни базовые точки соседних узоров. Это особенно часто может проявляться, если начальная точка расположена в вершине какого-нибудь остро выступающего угла участка. Перенесите начальную точку.
+<br>
+
+<br>
+Рассмотрим вторую проблему подробнее - плитки не расположены точно вдоль стороны, к которой они должны примыкать. Это проявляется когда не совсем удачно выбрана базовая точка узора, например, не на границе одной из плиток, а внутри. Если аналитически рассчитать оптимальное положение начальной точки не удается, можно поэкспериментировать с кнопкой <img src="fill1.png" width="16" height="16" border="0">. Она укладывает на участок только один узор, в начальную точку. Можно проверить размещение плиток, скорректировать начальную точку и снова проверить укладку одного узора.
+<br>
+
+<br>
+Для удаления всех плиток с участка - предназначена кнопка <img src="deltiles.png" width="16" height="16" border="0">.
+<br>
+Перед повторным заполением не обязательно удалять плитки с участка, нажмите кнопку <b>Заполнить</b> <img src="fill.png" width="16" height="16" border="0"> на панели инструментов,  или выберите в меню <b>Участок</b><b> </b></span><span style="font-family:Wingdings; font-size:10pt; color:#000000"><b>а</b></span><span style="font-family:Helvetica,Arial; font-size:10pt; color:#000000"><b> </b><b>Заполнить</b> - перед повторным заполнением  уложенные  ранее плитки удалятся автоматически.
+<br>
+
+<br>
+В главе <a href=javaScript:parent.reDisplay('2.4.5',1,0)>Отчет и комментарий</a> можно найти описание, как проверить количество и расположение половинок.
+<br>
+
+<br>
+</span></span>
+
+</body>
+</html>

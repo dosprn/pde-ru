@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'), url('/opensans.woff2') format('woff2'), url('/opensans.woff') format('woff'), url('/opensans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+  /*margin : 8px 8px 8px 8px;*/
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.titlepanel {
+  background-color : #E0E0E0;
+  padding       : 4px 4px 4px 4px;
+  font-family   : Arial;
+  font-weight   : bold;
+  text-align    : center;
+  border-radius : 4px 4px 4px 4px;
+}
+
+.headpanel {
+  background-color : #E0E0E0;
+  padding       : 2px 2px 2px 2px;
+  font-family   : Arial;
+  font-weight   : bold;
+  text-align    : center;
+  border-radius : 4px 4px 0 0;
+}
+
+.uncoloredheadpanel {
+  padding       : 2px 2px 2px 2px;
+  font-family   : Arial;
+  font-weight   : bold;
+  text-align    : center;
+  border-radius : 4px 4px 0 0;
+}
+
+.marginpanel {
+  margin : 8px 8px 8px 8px;
+}
+
+.contentpanel {
+  border-width  : 1px; 
+  border-style  : solid;
+  border-color  : #E0E0E0;
+  padding       : 4px 4px 4px 4px;
+  border-radius : 0 0 4px 4px;
+}
+
+.alonecontentpanel {
+  border-width  : 1px; 
+  border-style  : solid;
+  border-color  : #E0E0E0;
+  padding       : 4px 4px 4px 4px;
+  border-radius : 4px 4px 4px 4px;
+}

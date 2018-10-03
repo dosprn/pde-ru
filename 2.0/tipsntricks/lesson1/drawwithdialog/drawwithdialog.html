@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Рисование с помощью диалога</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<META http-equiv=Content-Language content=ru-ru>
+<link rel="stylesheet" type="text/css" href="/styles.css"/>
+</head>
+<body>
+
+<div class="marginpanel">
+
+<div class="marginpanel">
+<div class="titlepanel">
+<span style="float : left">Проектировщик тротуарной плитки 2.2</span>
+<h1>Рисование с помощью диалога</h1>
+</div>
+</div>
+
+<div class="marginpanel">
+<div class="alonecontentpanel">
+Нажимаем кнопку "Ломаная линия" <img src="zigzag.bmp">.
+В точке с координатами (0;0) нажимаем <i>правую</i> кнопку мыши, удерживая клавишу Shift. Появится
+вот такой диалог, а точка (0;0) станет для него <i>текущей</i>. Текущей становится любая точка, в которой
+мы нажмём &lt;Shift&gt;+<правую кнопку мышки>. Это работает только когда рисуем линию или ломаную линию.
+<div align="center"><img src="drawdialog1.png"></div><br>
+Внизу, в разделе "со смещением от текущей точки" вводим "14" и нажимаем "Вправо". 
+<div align="center"><img src="drawdialog14.png"></div><br>
+От текущей точки (0;0) вправо нарисуется линия длиной 14 метров и текущей станет точка (14;0). 
+Значение "14" исчезнет, освобождая ячейку для ввода следующего размера. 
+<div align="center"><img src="drawdialog2.png"></div><br>
+Там же вводим "5,6" и нажимаем "Вверх".
+<div align="center"><img src="drawdialog3.png"></div><br>
+Вводим "14" и нажимаем "Влево".
+<div align="center"><img src="drawdialog4.png"></div><br>
+Вводим "5,6" и нажимаем "Вниз".
+<div align="center"><img src="drawdialog5.png"></div><br>
+Если всё сделано правильно, то прямоугольник замкнулся в точке (0;0). Как видите, это удобно использовать,
+когда известна длина каждого отрезка контура.<br>
+Закрываем диалог. Теперь нарисуем нижнюю трапецию. Нажимаем &lt;Shift&gt;+<правую кнопку мышки> в точке (5,4;0). 
+Там же, где и в прошлый раз, вводим "1,2" и нажимаем "Вверх". 
+<div align="center"><img src="drawdialog6.png"></div><br>
+Теперь надо нарисовать диагональную линию. Для этого надо использовать две координаты. В среднем
+разделе, который тоже называется "со смещением от текущей точки" вводим "0,8" и "0,8" по обоим осям 
+и нажимаем "Нарисовать".
+<div align="center"><img src="drawdialog15.png"></div><br>
+<div align="center"><img src="drawdialog7.png"></div><br>
+Далее внизу вводим "1,6" и нажимаем "Вправо".
+<div align="center"><img src="drawdialog8.png"></div><br>
+Теперь надо нарисовать диагональную линию, но в другом направлении. Поэтому координаты для неё будут
+"0,8" по X и "-0,8" по Y. 
+<div align="center"><img src="drawdialog9.png"></div><br>
+<div align="center"><img src="drawdialog10.png"></div><br>
+Далее внизу вводим "1,2" и нажимаем "Вниз".
+<div align="center"><img src="drawdialog11.png"></div><br>
+Абсолютно аналогичным образом рисуем верхнюю трапецию. Начинаем из точки (5,4;5,6). Последовательно
+вводим и нажимаем: "1,2" "Вниз", "0,8" и "-0,8" "Нарисовать", "1,6" "Вправо", "0,8" и "0,8" "Нарисовать",
+"1,2" "Вверх".
+<div align="center"><img src="drawdialog12.png"></div><br>
+Таким же образом рисуем два квадрата. Первый начинается в точке (1,8;1,8). Для него вводим и нажимаем
+"2" "Вправо", "2" "Вверх", "2" "Влево", "2" "Вниз". Второй начинается в точке (10,2;1,8). Размеры те же.
+<div align="center"><img src="drawdialog13.png"></div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
+
