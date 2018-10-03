@@ -5,41 +5,41 @@
 //---------------------------------------------------------------------------
 
 var tocTab = new Array();var ir=0;
-tocTab[ir++] = new Array ("1", "Введение", "", "", "cicon1.gif", "cicon2.gif");
-tocTab[ir++] = new Array ("1.1", "Для чего эта программа", "whatisthis.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("1.2", "Чего программа не может", "unable.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("1.3", "Требования к компьютеру", "systemrequrements.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("1.4", "О программе", "about.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("1.5", "Новое в 2.2", "newin22.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("1.6", "Лицензия", "license.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("1.7", "Известные проблемы", "knownbugs.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("2", "Как работает", "", "", "cicon1.gif", "cicon2.gif");
-tocTab[ir++] = new Array ("2.1", "Быстрый старт", "quickstart.html", "", "cicon1.gif", "cicon2.gif");
-tocTab[ir++] = new Array ("2.1.1", "Этап 1. Нарисовать плитку", "step1.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("2.1.2", "Этап 2. Сложить из плиток узор", "step2.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("2.1.3", "Этап 3. Уложить плитку на участок", "step3.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("2.2", "Редактор плиток", "tileeditor.html", "", "cicon1.gif", "cicon2.gif");
-tocTab[ir++] = new Array ("2.2.1", "Половинки", "parts.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("2.3", "Редактор узоров", "collageeditor.html", "", "cicon1.gif", "cicon2.gif");
-tocTab[ir++] = new Array ("2.3.1", "Добавление плитки в узор", "addtileincollage.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("2.3.2", "Проверка узора", "checkcollage.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("2.4", "Разработка проектов", "projecteditor.html", "", "cicon1.gif", "cicon2.gif");
-tocTab[ir++] = new Array ("2.4.1", "Рисование участка", "drawproject.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("2.4.2", "Выбор узора", "projecttileandcollage.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("2.4.3", "Заполнение плиткой", "fillwithtiles.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("2.4.4", "Оформление участка", "colorandtextures.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("2.4.5", "Отчет и комментарий", "reportandcomment.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("2.4.6", "Печать проекта", "print.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("2.4.7", "Сохранение проекта", "saveproject.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("2.5", "Настройки программы", "settings.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("3", "Справочник", "", "", "cicon1.gif", "cicon2.gif");
-tocTab[ir++] = new Array ("3.1", "Словарь терминов", "glossary.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("3.2", "Чертеж", "plansheet.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("3.3", "Черчение графических объектов", "drawprimitives.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("3.4", "Редактирование графических объектов", "editprimitives.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("3.5", "Статус", "primitivestatus.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("3.6", "Масштаб", "scale.html", "", "cicon9.gif", "");
-tocTab[ir++] = new Array ("3.7", "Мини-дисплей", "minidisplay.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("1", "Р’РІРµРґРµРЅРёРµ", "", "", "cicon1.gif", "cicon2.gif");
+tocTab[ir++] = new Array ("1.1", "Р”Р»СЏ С‡РµРіРѕ СЌС‚Р° РїСЂРѕРіСЂР°РјРјР°", "whatisthis.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("1.2", "Р§РµРіРѕ РїСЂРѕРіСЂР°РјРјР° РЅРµ РјРѕР¶РµС‚", "unable.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("1.3", "РўСЂРµР±РѕРІР°РЅРёСЏ Рє РєРѕРјРїСЊСЋС‚РµСЂСѓ", "systemrequrements.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("1.4", "Рћ РїСЂРѕРіСЂР°РјРјРµ", "about.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("1.5", "РќРѕРІРѕРµ РІ 2.2", "newin22.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("1.6", "Р›РёС†РµРЅР·РёСЏ", "license.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("1.7", "РР·РІРµСЃС‚РЅС‹Рµ РїСЂРѕР±Р»РµРјС‹", "knownbugs.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("2", "РљР°Рє СЂР°Р±РѕС‚Р°РµС‚", "", "", "cicon1.gif", "cicon2.gif");
+tocTab[ir++] = new Array ("2.1", "Р‘С‹СЃС‚СЂС‹Р№ СЃС‚Р°СЂС‚", "quickstart.html", "", "cicon1.gif", "cicon2.gif");
+tocTab[ir++] = new Array ("2.1.1", "Р­С‚Р°Рї 1. РќР°СЂРёСЃРѕРІР°С‚СЊ РїР»РёС‚РєСѓ", "step1.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("2.1.2", "Р­С‚Р°Рї 2. РЎР»РѕР¶РёС‚СЊ РёР· РїР»РёС‚РѕРє СѓР·РѕСЂ", "step2.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("2.1.3", "Р­С‚Р°Рї 3. РЈР»РѕР¶РёС‚СЊ РїР»РёС‚РєСѓ РЅР° СѓС‡Р°СЃС‚РѕРє", "step3.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("2.2", "Р РµРґР°РєС‚РѕСЂ РїР»РёС‚РѕРє", "tileeditor.html", "", "cicon1.gif", "cicon2.gif");
+tocTab[ir++] = new Array ("2.2.1", "РџРѕР»РѕРІРёРЅРєРё", "parts.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("2.3", "Р РµРґР°РєС‚РѕСЂ СѓР·РѕСЂРѕРІ", "collageeditor.html", "", "cicon1.gif", "cicon2.gif");
+tocTab[ir++] = new Array ("2.3.1", "Р”РѕР±Р°РІР»РµРЅРёРµ РїР»РёС‚РєРё РІ СѓР·РѕСЂ", "addtileincollage.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("2.3.2", "РџСЂРѕРІРµСЂРєР° СѓР·РѕСЂР°", "checkcollage.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("2.4", "Р Р°Р·СЂР°Р±РѕС‚РєР° РїСЂРѕРµРєС‚РѕРІ", "projecteditor.html", "", "cicon1.gif", "cicon2.gif");
+tocTab[ir++] = new Array ("2.4.1", "Р РёСЃРѕРІР°РЅРёРµ СѓС‡Р°СЃС‚РєР°", "drawproject.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("2.4.2", "Р’С‹Р±РѕСЂ СѓР·РѕСЂР°", "projecttileandcollage.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("2.4.3", "Р—Р°РїРѕР»РЅРµРЅРёРµ РїР»РёС‚РєРѕР№", "fillwithtiles.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("2.4.4", "РћС„РѕСЂРјР»РµРЅРёРµ СѓС‡Р°СЃС‚РєР°", "colorandtextures.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("2.4.5", "РћС‚С‡РµС‚ Рё РєРѕРјРјРµРЅС‚Р°СЂРёР№", "reportandcomment.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("2.4.6", "РџРµС‡Р°С‚СЊ РїСЂРѕРµРєС‚Р°", "print.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("2.4.7", "РЎРѕС…СЂР°РЅРµРЅРёРµ РїСЂРѕРµРєС‚Р°", "saveproject.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("2.5", "РќР°СЃС‚СЂРѕР№РєРё РїСЂРѕРіСЂР°РјРјС‹", "settings.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("3", "РЎРїСЂР°РІРѕС‡РЅРёРє", "", "", "cicon1.gif", "cicon2.gif");
+tocTab[ir++] = new Array ("3.1", "РЎР»РѕРІР°СЂСЊ С‚РµСЂРјРёРЅРѕРІ", "glossary.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("3.2", "Р§РµСЂС‚РµР¶", "plansheet.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("3.3", "Р§РµСЂС‡РµРЅРёРµ РіСЂР°С„РёС‡РµСЃРєРёС… РѕР±СЉРµРєС‚РѕРІ", "drawprimitives.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("3.4", "Р РµРґР°РєС‚РёСЂРѕРІР°РЅРёРµ РіСЂР°С„РёС‡РµСЃРєРёС… РѕР±СЉРµРєС‚РѕРІ", "editprimitives.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("3.5", "РЎС‚Р°С‚СѓСЃ", "primitivestatus.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("3.6", "РњР°СЃС€С‚Р°Р±", "scale.html", "", "cicon9.gif", "");
+tocTab[ir++] = new Array ("3.7", "РњРёРЅРё-РґРёСЃРїР»РµР№", "minidisplay.html", "", "cicon9.gif", "");
 showNumbers = false,
 textSizes = new Array(1, 1, 0.7, 0.7),
 tocBehaviour = new Array(1,1),
@@ -59,7 +59,7 @@ ctrlKeyDown = (isIE) ? e.ctrlKey : (e.modifiers==2);
 if (tocChange && ctrlKeyDown) tocChange = 2;
 }
 toc.document.clear();
-toc.document.write("<html>\n\r<head>\n\r<meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1251\">\n\r</head>\n\r<style type=\"text/css\">\n\r       SPAN.heading1 { font-family: Top; font-weight: normal; font-size: pt; color: #000000; text-decoration: none }\n\r       SPAN.heading2 { font-family: Previous; font-weight: normal; font-size: pt; color: #000000; text-decoration: none }\n\r       SPAN.heading3 { font-family: Next; font-weight: normal; font-size: pt; color: #000000; text-decoration: none }\n\r       SPAN.heading4 { font-family: Helvetica,Arial; font-weight: normal; font-size: 8pt; color: #000000; text-decoration: none }\n\r       SPAN.heading5 { font-family: Helvetica,Arial; font-weight: normal; font-size: 8pt; color: #000000; text-decoration: none }\n\r       SPAN.heading6 { font-family: Helvetica,Arial; font-weight: normal; font-size: 8pt; color: #000000; text-decoration: none }\n\r\n\r       SPAN.hilight1 { font-family: Top; font-weight: normal; font-size: pt; color: #FFFFFF; background: #002682; text-decoration: none }\n\r       SPAN.hilight2 { font-family: Previous; font-weight: normal; font-size: pt; color: #FFFFFF; background: #002682; text-decoration: none }\n\r       SPAN.hilight3 { font-family: Next; font-weight: normal; font-size: pt; color: #FFFFFF; background: #002682; text-decoration: none }\n\r       SPAN.hilight4 { font-family: Helvetica,Arial; font-weight: normal; font-size: 8pt; color: #FFFFFF; background: #002682; text-decoration: none }\n\r       SPAN.hilight5 { font-family: Helvetica,Arial; font-weight: normal; font-size: 8pt; color: #FFFFFF; background: #002682; text-decoration: none }\n\r       SPAN.hilight6 { font-family: Helvetica,Arial; font-weight: normal; font-size: 8pt; color: #FFFFFF; background: #002682; text-decoration: none }\n\r</style>\n\r<body bgcolor=\"#FFFFFF\">\n\r  <font face=\"Top\" size=\"4\"><b>\n\rПроектировщик тротуарной плитки\n\r  </b></font>\n\r  <br>\n\r  <br>\n\r\n\r  <!-- Place holder for the TOC, do not delete the line below -->\n\r  ");var currentNumArray = currentNumber.split(".");
+toc.document.write("<html>\n\r<head>\n\r<meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1251\">\n\r</head>\n\r<style type=\"text/css\">\n\r       SPAN.heading1 { font-family: Top; font-weight: normal; font-size: pt; color: #000000; text-decoration: none }\n\r       SPAN.heading2 { font-family: Previous; font-weight: normal; font-size: pt; color: #000000; text-decoration: none }\n\r       SPAN.heading3 { font-family: Next; font-weight: normal; font-size: pt; color: #000000; text-decoration: none }\n\r       SPAN.heading4 { font-family: Helvetica,Arial; font-weight: normal; font-size: 8pt; color: #000000; text-decoration: none }\n\r       SPAN.heading5 { font-family: Helvetica,Arial; font-weight: normal; font-size: 8pt; color: #000000; text-decoration: none }\n\r       SPAN.heading6 { font-family: Helvetica,Arial; font-weight: normal; font-size: 8pt; color: #000000; text-decoration: none }\n\r\n\r       SPAN.hilight1 { font-family: Top; font-weight: normal; font-size: pt; color: #FFFFFF; background: #002682; text-decoration: none }\n\r       SPAN.hilight2 { font-family: Previous; font-weight: normal; font-size: pt; color: #FFFFFF; background: #002682; text-decoration: none }\n\r       SPAN.hilight3 { font-family: Next; font-weight: normal; font-size: pt; color: #FFFFFF; background: #002682; text-decoration: none }\n\r       SPAN.hilight4 { font-family: Helvetica,Arial; font-weight: normal; font-size: 8pt; color: #FFFFFF; background: #002682; text-decoration: none }\n\r       SPAN.hilight5 { font-family: Helvetica,Arial; font-weight: normal; font-size: 8pt; color: #FFFFFF; background: #002682; text-decoration: none }\n\r       SPAN.hilight6 { font-family: Helvetica,Arial; font-weight: normal; font-size: 8pt; color: #FFFFFF; background: #002682; text-decoration: none }\n\r</style>\n\r<body bgcolor=\"#FFFFFF\">\n\r  <font face=\"Top\" size=\"4\"><b>\n\rРџСЂРѕРµРєС‚РёСЂРѕРІС‰РёРє С‚СЂРѕС‚СѓР°СЂРЅРѕР№ РїР»РёС‚РєРё\n\r  </b></font>\n\r  <br>\n\r  <br>\n\r\n\r  <!-- Place holder for the TOC, do not delete the line below -->\n\r  ");var currentNumArray = currentNumber.split(".");
 var currentLevel = currentNumArray.length-1;
 var currentIndex = 9;
 if (currentNumber == "") currentNumber = top.location.href.substring(top.location.href.lastIndexOf("?")+1,top.location.href.length);
@@ -129,7 +129,7 @@ if (!noLink) {
 oldLastVisitNumber = oldCurrentNumber;
 oldCurrentNumber = currentNumber;
 }
-toc.document.write("\n\r\n\r  <br>\n\r  <hr>\n\r  <font face=\"Top\" size=\"1\">\n\r&copy; ЧП Гребенюк С.А., 2004-2014\n\r  </font>\n\r</body>\n\r</html>\n\r");
+toc.document.write("\n\r\n\r  <br>\n\r  <hr>\n\r  <font face=\"Top\" size=\"1\">\n\r&copy; Р§Рџ Р“СЂРµР±РµРЅСЋРє РЎ.Рђ., 2004-2014\n\r  </font>\n\r</body>\n\r</html>\n\r");
 toc.document.close();
 if (tocScroll) toc.scroll(0,scrollY);
 if (theHref)
